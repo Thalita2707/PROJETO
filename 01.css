@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    
+}
+header{
+    padding: 1rem;
+    background-color: #fd7e14;
+    font-family: "Jomhuria", serif;
+    font-weight: 100;
+    font-size: 30px;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between; /* Garante que a logo fique de um lado e a barra do outro */
+    align-items: center;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Ocupa espaço disponível */
+}
+img {
+    margin: 0;
+    padding: 0;
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.search-container {
+    flex: 1; /* Ocupa espaço disponível */
+    display: flex;
+    justify-content: flex-end; /* Alinha a barra de pesquisa à direita */
+}.search-bar {
+    padding: 0.5rem;
+    border: 1px solid #743B0B;
+    border-radius: 5px;
+    width: 200px; /* Ajuste conforme necessário */
+}
+
+main{
+    img{ margin: 0;
+        padding: 0;
+        width: 1520px; /* Ajuste o tamanho conforme necessário */
+        height: auto; /* Mantém a proporção da imagem */
+
+    }
+}
+
+h2{
+    color: #743B0B;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-size: 70px;
+    font-style: normal;
+}
