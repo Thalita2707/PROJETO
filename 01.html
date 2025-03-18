@@ -1,48 +1,148 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-    <head>
-            <title>Quilombos</title>
-            <meta name="Quilombos" content="width=device-width, initial-scale=1.0">           
-    <link rel="stylesheet" href="01.css">
-</head>
-<body>
-    <header>
-        <h1></h1>
-            <section>
-                <figure>
-                <img src="imagem/logo.png" alt="">
-                </figure>
-                <input type="text" id="p8" name="pergunta8" placeholder="Pesquise aqui...">
-            </section>
-    </header>
-    <main>             
-            <!--Imagem de capa-->
-        <section>
-            <figure>
-                <img src="imagem/capa.jpg" alt="" class="timg">
-            </figure>
-        </section>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Projeto Quilombos</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+           <style>
+             @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+                h2 {
+                color: #743B0B;
+                font-family: 'Jomhuria', cursive;
+                font-weight: 400;
+                }
+            </style>        
+        </head>
+            <link rel="stylesheet" href="index.css">
+        <body>
+                <header class="bg-warning py-3">
+                            <div class="container d-flex justify-content-between align-items-center">
+                                <img class="img-fluid" src="imagem/logoprojeto.png" alt="Logo do projeto" width="200" height="auto">
+                                <input type="text" class="form-control w-50" placeholder="Pesquise aqui...">
+                            </div>
+                </header>
 
-            <!--Para que estamos aqui? + fotos-->
-        <section>
+                        <section> <!--Capa-->          
+                            <img src="imagem/capa.jpg" alt="Capa do site" width="1520" height="auto">
+                        </section>
 
-            <figure>
-                <img src="imagem/image1.jpg" alt="" class="atimg" >
-            </figure>
-            <figure>
-                <img src="imagem/image2.jpg" alt="" class="atlimg">
-            </figure>
-            <h2>PARA QUE ESTAMOS AQUI?</h2>
-            <p>O projeto Quilombos: Um Caminho para o Conhecimento Afro-brasileiro <br>
-                tem como objetivo promover a valorização e a disseminação da rica e <br> 
-                significativa cultura afro-brasileira, essencial para compreender <br>
-                 nossa história e identidade. Neste site, você encontrará informações <br>
-                 detalhadas sobre fatos históricos pouco conhecidos, conteúdos relevantes,<br>
-                  peças históricas de grande valor, além de dados sobre a localização e a <br>
-                  realidade atual das populações quilombolas. Tudo foi elaborado para tornar <br>
-                  o aprendizado mais acessível e envolvente. Explore e descubra! </p>
-        </section>
-    </main>
-</body>
-</html>
+                        <section id="sobre" class="container my-5">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 text-center">
+
+                                    <img class="img-fluid" src="imagem/image1.jpg" alt="Image1">
+                                    <img class="img-fluid mt-3" src="imagem/image2.jpg" alt="Imagem 2">
+                                
+                                </div>
+                                <div class="col-md-6">
+                                    <h2 class="fw-bold">PARA QUE ESTAMOS AQUI?</h2>
+                                    <p>
+                                        O projeto Quilombos: Um Caminho para o Conhecimento Afro-brasileiro 
+                                        tem como objetivo promover a valorização e a disseminação da rica e 
+                                        significativa cultura afro-brasileira, essencial para compreender nossa
+                                         história e identidade. Neste site, você encontrará informações detalhadas 
+                                         sobre fatos históricos pouco conhecidos, conteúdos relevantes, peças 
+                                         históricas de grande valor, além de dados sobre a localização e a 
+                                         realidade atual das populações quilombolas. Tudo foi elaborado para tornar
+                                          o aprendizado mais acessível e envolvente. Explore e descubra!
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+           
+                        <section id="temas" class="container my-5">
+                            <div class="row text-center">
+                                <div class="col-md-2 d-flex flex-column align-items-center">
+                                    <img class="img-fluid" src="imagem/cultura.jpg" alt="Cultura">
+                                    <p class="mt-2"><a href="pag1.html" target="_blank">Cultura</a> </p>
+                            </div>
+
+                            <div class="col-md-2 d-flex flex-column align-items-center">
+                                    <img class="img-fluid" src="imagem/lideres.jpg" alt="Líderes">
+                                    <p class="mt-2">Principais líderes</p>
+                            </div>
+
+                            <div class="col-md-2 d-flex flex-column align-items-center">
+                                    <img class="img-fluid" src="imagem/localicao.jpg" alt="Localização">
+                                    <p class="mt-2">Onde estão?</p>
+                            </div>
+
+                            <div class="col-md-2 d-flex flex-column align-items-center">
+                                    <img class="img-fluid" src="imagem/economia.jpg"alt="Economia">
+                                    <p class="mt-2">Economia</p>
+                            </div>
+                            
+                                <div class="col-md-2 d-flex flex-column align-items-center">
+                                    <img class="img-fluid"  src="imagem/direitos.jpg" alt="Direitos">
+                                    <p class="mt-2">Lutas e direitos</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="noticias" class="container my-5">
+                            <h3 class="fw-bold text-center">NOTÍCIAS E REPORTAGENS</h3>
+                            <p class="text-center text-muted">Fique por dentro das últimas notícias e eventos.</p>
+                            <div class="row">
+                                <div class="col-md-3 text-center">
+                                    <img class="img-fluid" src="imagem/noticia1.jpg"alt="Notícia 1">
+                                    <h5 class="mt-2">Jovem de comunidade quilombola consegue bolsa de estudos de mais de R$ 2 milhões em universidade dos EUA</h5>
+                                    <p>Jean Pereira dos Santos, de 19 anos, vai cursas educação e política social a partir de agosto. Ele vai estudar na Northwestern University.</p>
+                                    <p class="text-muted">Sábado, 10 de fevereiro de 2025 - 07:45</p>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <img class="img-fluid" src="imagem/noticia2.jpg" alt="Notícia 2">
+                                    <h5 class="mt-2">Abertas inscrições para o processo seletivo quilombola UFPE 2025; 25 vagas em Santa Maria da Boa Vista</h5>
+                                    <p>As inscrições estão abertas até o dia 28 de janeiro e podem ser realizadas pela internet.</p>
+                                    <p class="text-muted">Segunda-feira, 12 de fevereiro de 2025 - 10:30</p>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <img class="img-fluid"  src="imagem/image3.jpg"alt="Notícia 3">
+                                    <h5 class="mt-2">Nota de pesar pelo falecimento de Dona Antônia, liderança histórica do Quilombo Cangume.</h5>
+                                    <p>Antônia Gonçalves de Pontes tinha 91 anos e deixa um legado de compromisso e dedicação à luta quilombola</p>
+                                    <p class="text-muted">Quarta-feira, 14 de fevereiro de 2025 - 15:20</p>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <img class="img-fluid" src="imagem/noticia4.jpg" alt="Notícia 4">
+                                    <h5 class="mt-2">Comunicação indígena será decisiva para enfrentar mudanças climáticas em 2025</h5>
+                                    <p>Capazes de conectar saberes ancestrais e práticas decisivas para a preservação da floresta, comunicadores indígenas terão papel crucial nos espaços de decisão a respeito do clima</p>
+                                    <p class="text-muted">Sexta-feira, 16 de fevereiro de 2025 - 08:00</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="estudo" >
+                            <h3 class="fw-bold text-center">Quer estudar mais sobre? De uma olhada aqui!</h3>
+                            <div class="container1">
+                              <div class="card"><img src="imagem/livro1.png" alt=""><p>Quilombos Resistência</p></div>
+                              <div class="card"><img src="imagem/Livro2.jpg" alt=""><p>Palmares: A Guerra dos Escravos</p></div>
+                              <div class="card"><img src="imagem/Livro3.jpg" alt=""><p>Os Quilombos e a Rebelião Negra</p></div>
+                              <div class="card"><img src="imagem/livro4.jpg" alt=""><p>Mulheres Quilombolas: Luta por Direitos</p></div>
+                              <div class="card"><img src="imagem/Livrro5.jpg" alt=""><p>Educação Quilombola</p></div>
+                            </div>
+                        </section>
+                                </div>
+                            </div>
+                        </section>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                    <footer>
+                        <div>
+                            <img src="imagem/logoprojeto.png" alt="Logo">
+                            <h3>O Estúdio Bruna Bali é um lugar seguro</h3>
+                            <p>© 2022 - Todos os direitos reservados.</p>
+                            <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a>
+                            <p>Bruna Bali<br>CNPJ: 39.666.419.0001/12</p>
+                        </div>
+                    
+                        <div>
+                            <img src="imagem/email.png" alt="Ícone de e-mail">
+                            <h3>Dúvidas ou quer falar comigo?</h3>
+                            <p>Se quiser falar conosco ou tirar dúvidas sobre sua compra, envie um e-mail para:</p>
+                            <a href="mailto:atendimento@brunabali.com">atendimento@brunabali.com</a>
+                        </div>
+                    </footer>
+                    
+        
+        </body>
+</html>     
