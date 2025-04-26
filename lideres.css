@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+/* Estilos gerais do body */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif; /* Fonte padrão para o corpo do texto */
+}
+
+/* Estilos para o título principal (h2) */
+h2 {
+    color: #743B0B;
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #ffc107; /* Cor de fundo do cabeçalho (amarelo) */
+    padding: 15px 20px; /* Adiciona um pouco de padding interno */
+    width: 100%; /* Garante que o cabeçalho ocupe a largura total */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
+    max-width: 1200px; /* Largura máxima do container para evitar que o conteúdo fique muito largo */
+    margin: 0 auto; /* Centraliza o container na tela */
+}
+
+header img {
+    width: 60px; /* Aumentei um pouco o tamanho da logo para melhor visualização */
+    height: auto;
+    display: block;
+}
+
+header .logo-info {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre a logo e o texto */
+}
+
+header .logo-info h4 {
+    color: #743B0B;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+header .logo-info small {
+    color: #743B0B;
+}
+
+header nav {
+    display: flex;
+    gap: 20px; /* Aumentei um pouco o espaçamento entre os links */
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os links em telas menores */
+    margin-top: 10px; /* Adiciona um pouco de espaço acima da navegação em telas menores */
+}
+
+header nav a {
+    color: #333; /* Cor dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header .search-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    width: 100%; /* Ocupa a largura total em telas menores */
+    max-width: 300px; /* Largura máxima da caixa de pesquisa */
+}
+
+header input[type="text"] {
+    flex-grow: 1; /* Faz o input ocupar o espaço disponível */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+header .input-group-text {
+    background-color: #ffc107;
+    color: #333;
+    border: 1px solid #ffc107;
+    border-radius: 0 4px 4px 0;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+header .input-group-text i {
+    font-size: 1.1rem;
+}
+
+/* Estilos para o conteúdo principal (main) */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o conteúdo principal */
+}
+
+/* Estilos para a seção do tópico inicial */
+.topico-inicial {
+    margin-bottom: 30px;
+}
+
+.topico-inicial h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #743B0B; /* Garante a cor do título */
+    font-family: 'Jomhuria', cursive; /* Garante a fonte do título */
+    font-weight: 400; /* Garante o peso da fonte do título */
+}
+
+.topico-inicial .d-flex {
+    display: flex;
+    flex-direction: column; /* Empilha imagem e texto em telas menores */
+    gap: 20px; /* Espaçamento entre imagem e texto */
+}
+
+.topico-inicial img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+.topico-inicial p {
+    font-size: 1.1rem; /* Ajustei um pouco o tamanho da fonte do texto */
+    color: #4A2C16;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Estilos para as seções dos líderes */
+.Ganga, .Zumbi, .Dandara {
+    margin-bottom: 30px;
+}
+
+.titulo01, .titulo02, .titulo03 {
+    color: #D35400;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.Ganga .d-flex,
+.Zumbi .d-flex,
+.Dandara .d-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row; /* Organiza imagem e texto na mesma linha por padrão */
+    margin-bottom: 20px;
+}
+
+.Ganga img,
+.Dandara img,
+.Zumbi img {
+    max-width: 150px; /* Padronizei a largura máxima das imagens dos líderes */
+    height: auto;
+}
+
+.Ganga p,
+.Zumbi p,
+.Dandara p {
+    font-size: 1.1rem; /* Ajustei um pouco o tamanho da fonte do texto */
+    color: #4A2C16;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0;
+}
+
+/* Estilos para a seção do legado */
+.O\ Legado\ dos\ Líderes\ Quilombolas h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #743B0B; /* Garante a cor do título */
+    font-family: 'Jomhuria', cursive; /* Garante a fonte do título */
+    font-weight: 400; /* Garante o peso da fonte do título */
+}
+
+.O\ Legado\ dos\ Líderes\ Quilombolas p {
+    font-size: 1.1rem; /* Ajustei um pouco o tamanho da fonte do texto */
+    color: #4A2C16;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #D8B894;
+    padding: 40px 20px;
+    text-align: center; /* Centraliza o conteúdo inicialmente para telas menores */
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0 0;
+    width: 100%; /* Garante que o rodapé ocupe a largura total */
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as colunas se empilhem em telas menores */
+    justify-content: space-around; /* Espaça as colunas */
+    align-items: flex-start; /* Alinha os itens no topo */
+    max-width: 800px; /* Largura máxima do container interno */
+    margin: 0 auto; /* Centraliza o container interno */
+}
+
+.footer-left, .footer-right {
+    flex: 1; /* Faz as colunas ocuparem o mesmo espaço */
+    min-width: 300px; /* Garante uma largura mínima para cada coluna */
+    text-align: left; /* Alinha o texto à esquerda dentro de cada coluna */
+    padding: 10px;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+    display: block; /* Garante que a margem funcione corretamente */
+}
+
+.footer-icon {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+    display: block; /* Garante que a margem funcione corretamente */
+}
+
+.footer p {
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+.footer a {
+    color: #4A2C16;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media query para telas menores, onde as colunas se empilham */
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column; /* Empilha as colunas verticalmente */
+        align-items: center; /* Centraliza os itens */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .footer-left, .footer-right {
+        min-width: auto; /* Remove a largura mínima */
+        width: 100%; /* Ocupa a largura total */
+        padding: 20px;
+    }
+
+    .footer-logo, .footer-icon {
+        margin: 15px auto; /* Centraliza a logo e o ícone */
+        display: block;
+    }
+}
+
+/* Estilos para o rodapé (versão anterior, caso ainda esteja em uso em alguma página) */
+#rodape {
+    text-align: center;
+    padding: 20px;
+}
+
+#rodape img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#rodape h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#rodape p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+#rodape a {
+    color: #4A2C16;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
+
+/* Ajuste para o texto inicial ao lado da imagem em telas maiores */
+@media (min-width: 769px) {
+    .topico-inicial .d-flex {
+        flex-direction: row; /* Alinha a imagem e o texto lado a lado */
+        align-items: flex-start; /* Alinha os itens ao topo */
+    }
+
+    .topico-inicial img {
+        max-width: 300px; /* Defina uma largura máxima para a imagem */
+        margin-right: 20px; /* Adiciona um espaço entre a imagem e o texto */
+        margin-bottom: 0; /* Remove a margem inferior da imagem em telas maiores */
+    }
+}
