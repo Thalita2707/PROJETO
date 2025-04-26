@@ -1,0 +1,102 @@
+.card-horizontal {
+    display: block;
+    overflow: hidden; /* Garante que o conteúdo não fique desalinhado */
+}
+
+.card-horizontal img {
+    width: 375px; /* Ajuste conforme necessário */
+    height: auto;
+    float: left; /* Faz o texto contornar a imagem */
+    margin-right: 15px;
+    border-radius: 0px;
+}
+
+.card-text {
+    font-size: 18px; /* Aumenta o tamanho do texto */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+}
+/* Evita que elementos abaixo fiquem desalinhados */
+.card-horizontal::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header.bg-warning {
+    background-color: #FD7E14 !important; /* Substitua #SeuCodigoDeCor pela cor desejada */
+  }
+h2 {
+    font-size: 80px; /* Aumenta o tamanho do título */
+    font-weight: bold; /* Deixa o título mais forte */
+    color: #743B0B; /* Mantém a cor marrom que você já usava */
+    font-family: 'Jomhuria', cursive; /* Mantém a fonte estilizada */
+    text-transform: uppercase; /* Deixa o título em letras maiúsculas */
+    margin-bottom: 10px; /* Dá um espaçamento entre o título e o texto */
+}
+ul {
+    list-style-position: inside; /* Faz os marcadores ficarem dentro do bloco de texto */
+    padding-left: 0; /* Remove o espaçamento à esquerda */
+    margin-left: 0; /* Garante que os tópicos fiquem alinhados com o texto */
+}
+
+ul li {
+    margin-bottom: 5px; /* Dá um pequeno espaçamento entre os itens */
+}
+.footer {
+    background: #D8B894;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.highlight {
+    color: #000000;
+    font-weight: bold;
+}
+
