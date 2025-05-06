@@ -1,11 +1,11 @@
-/* --- Cores Primárias --- */
+
 :root {
-    --cor-principal: #743B0B;       /* Marrom terroso */
-    --cor-secundaria: #FD7E14;     /* Laranja vibrante */
-    --cor-fundo-rodape: #D8B894;   /* Bege claro */
-    --cor-texto-principal: #333;   /* Cinza escuro */
-    --cor-texto-secundario: #777; /* Cinza médio */
-    --cor-destaque: #D35400;       /* Laranja mais escuro (Leia também) */
+    --cor-principal: #743B0B;       
+    --cor-secundaria: #FD7E14;     
+    --cor-fundo-rodape: #D8B894;   
+    --cor-texto-principal: #333;   
+    --cor-texto-secundario: #777; 
+    --cor-destaque: #D35400;       
 }
 
 /* --- Cabeçalho --- */
@@ -17,52 +17,52 @@ header {
 
 header .container {
     display: flex;
-    align-items: center; /* Alinha verticalmente os itens do cabeçalho */
-    justify-content: space-between; /* Espaça os itens horizontalmente */
+    align-items: center; 
+    justify-content: space-between; 
 }
 
 header .logo-texto {
     display: flex;
-    flex-direction: column; /* Organiza o título e a descrição em coluna */
+    flex-direction: column;
 }
 
 header .logo-texto h4 a {
-    color: var(--cor-principal) !important; /* A COR CERTA AGORA! */
+    color: var(--cor-principal) !important; 
     font-family: 'Jomhuria', cursive !important;
     font-weight: 400 !important;
-    font-size: 2.5rem !important; /* Aumentei o tamanho da fonte do título */
+    font-size: 2.5rem !important; 
     text-decoration: none;
-    margin-bottom: 0; /* Removi a margem inferior padrão */
+    margin-bottom: 0; 
 }
 
 header .logo-texto small {
-    color: var(--cor-principal) !important; /* A COR CERTA AGORA! */
+    color: var(--cor-principal) !important; 
     font-family: 'Inter', sans-serif !important;
-    font-size: 0.9rem !important; /* Diminuí o tamanho da fonte da descrição */
+    font-size: 0.9rem !important; 
 }
 
 header nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Organiza os links em linha */
-    align-items: center; /* Alinha verticalmente os links */
+    display: flex; 
+    align-items: center;
 }
 
 header nav li {
-    margin-left: 1.5rem; /* Adiciona espaço entre os links */
+    margin-left: 1.5rem; 
 }
 
 header nav li:first-child {
-    margin-left: 0; /* Remove a margem do primeiro link */
+    margin-left: 0; 
 }
 
 header nav a {
-    color: var(--cor-principal) !important; /* A COR CERTA AGORA! */
+    color: var(--cor-principal) !important; 
     font-family: 'Inter', sans-serif !important;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1rem !important; /* Defini um tamanho para os links */
+    font-size: 1rem !important; 
 }
 
 header nav a:hover {
@@ -70,29 +70,28 @@ header nav a:hover {
 }
 header .input-group input {
     font-family: 'Inter', sans-serif !important;
-    color: var(--cor-texto-principal); /* Mantive a cor do texto do input */
-    font-size: 0.9rem !important; /* Ajustei o tamanho da fonte do input */
-}
+    color: var(--cor-texto-principal); 
+    font-size: 0.9rem !important; 
 
 header .input-group span {
     font-family: 'Inter', sans-serif !important;
-    color: var(--cor-texto-principal); /* Mantive a cor do texto do span */
-    font-size: 0.9rem !important; /* Ajustei o tamanho da fonte do span */
+    color: var(--cor-texto-principal); 
+    font-size: 0.9rem !important;
 }
 
 /* --- Rodapé --- */
 footer {
-    background-color: var(--cor-fundo-rodape) !important; /* Cor de fundo do rodapé */
+    background-color: var(--cor-fundo-rodape) !important; 
     padding: 20px 0;
     text-align: center;
     font-family: 'Inter', sans-serif !important;
-    color: var(--cor-texto-principal) !important; /* Cor do texto do rodapé */
+    color: var(--cor-texto-principal) !important; 
 }
 
 footer h3,
 footer p,
 footer a {
-    color: var(--cor-texto-principal) !important; /* Cor do texto dos elementos do rodapé */
+    color: var(--cor-texto-principal) !important; 
     text-decoration: none;
     font-family: 'Inter', sans-serif !important;
 }
