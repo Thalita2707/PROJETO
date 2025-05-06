@@ -1,50 +1,50 @@
 .card-horizontal {
     display: block;
-    overflow: hidden; /* Garante que o conteúdo não fique desalinhado */
+    overflow: hidden; 
 }
 
 .card-horizontal img {
-    width: 375px; /* Ajuste conforme necessário */
+    width: 375px; 
     height: auto;
-    float: left; /* Faz o texto contornar a imagem */
+    float: left; 
     margin-right: 15px;
     border-radius: 0px;
 }
 
 .card-text {
-    font-size: 18px; /* Aumenta o tamanho do texto */
-    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+    font-size: 18px; 
+    line-height: 1.6; 
     text-align: justify;
 }
 
 p{
     text-align: justify;
 }
-/* Evita que elementos abaixo fiquem desalinhados */
+
 .card-horizontal::after {
     content: "";
     display: table;
     clear: both;
 }
 header.bg-warning {
-    background-color: #FD7E14 !important; /* Substitua #SeuCodigoDeCor pela cor desejada */
+    background-color: #FD7E14 !important; /
   }
 h2 {
-    font-size: 80px; /* Aumenta o tamanho do título */
-    font-weight: bold; /* Deixa o título mais forte */
-    color: #743B0B; /* Mantém a cor marrom que você já usava */
-    font-family: 'Jomhuria', cursive; /* Mantém a fonte estilizada */
-    text-transform: uppercase; /* Deixa o título em letras maiúsculas */
-    margin-bottom: 10px; /* Dá um espaçamento entre o título e o texto */
+    font-size: 80px; 
+    font-weight: bold; 
+    color: #743B0B; 
+    font-family: 'Jomhuria', cursive; 
+    text-transform: uppercase; 
+    margin-bottom: 10px; 
 }
 ul {
-    list-style-position: inside; /* Faz os marcadores ficarem dentro do bloco de texto */
-    padding-left: 0; /* Remove o espaçamento à esquerda */
-    margin-left: 0; /* Garante que os tópicos fiquem alinhados com o texto */
+    list-style-position: inside; 
+    padding-left: 0; 
+    margin-left: 0; 
 }
 
 ul li {
-    margin-bottom: 5px; /* Dá um pequeno espaçamento entre os itens */
+    margin-bottom: 5px; 
 }
 .footer {
     background: #D8B894;
