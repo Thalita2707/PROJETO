@@ -25,19 +25,19 @@ h2 {
 
 header {
     background-color: #FD7E14;
-    padding: 20px 0; /* Ajuste de padding */
+    padding: 20px 0; 
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px; /* Tamanho fixo para o container */
+    max-width: 1140px; 
     width: 100%;
 }
 
 header img {
-    width: 100px; /* Tamanho fixo da logo */
+    width: 100px;
     height: auto;
 }
 
@@ -51,11 +51,11 @@ header nav a {
     font-weight: bold;
     color: #4A2C16;
     text-decoration: none;
-    font-size: 16px; /* Ajuste do tamanho da fonte para o menu */
+    font-size: 16px; 
 }
 
 header nav a:hover {
-    color: #743B0B; /* Mudança de cor ao passar o mouse */
+    color: #743B0B; 
 }
 
 section img {
@@ -84,8 +84,8 @@ section img {
     align-items: stretch;
 }
 .card-text {
-    font-size: 24px; /* Aumenta o tamanho do texto */
-    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+    font-size: 24px; 
+    line-height: 1.6; 
     text-align: justify;
 }
 .card {
@@ -266,5 +266,5 @@ p {
 }
 .card-horizontal {
     display: block;
-    overflow: hidden; /* Garante que o conteúdo não fique desalinhado */
+    overflow: hidden; 
 }
