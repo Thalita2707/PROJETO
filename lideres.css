@@ -1,37 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 
-/* Estilos gerais do body */
 body {
     padding: 0;
     margin: 0;
-    font-family: sans-serif; /* Fonte padrão para o corpo do texto */
+    font-family: sans-serif;
 }
 
-/* Estilos para o título principal (h2) */
 h2 {
     color: #743B0B;
     font-family: 'Jomhuria', cursive;
     font-weight: 400;
 }
 
-/* Estilos para o cabeçalho */
 header {
-    background-color: #ffc107; /* Cor de fundo do cabeçalho (amarelo) */
-    padding: 15px 20px; /* Adiciona um pouco de padding interno */
-    width: 100%; /* Garante que o cabeçalho ocupe a largura total */
+    background-color: #ffc107;
+    padding: 15px 20px;
+    width: 100%;
 }
 
 header .container {
     display: flex;
-    justify-content: space-between; /* Espaça os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
-    max-width: 1200px; /* Largura máxima do container para evitar que o conteúdo fique muito largo */
-    margin: 0 auto; /* Centraliza o container na tela */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header img {
-    width: 60px; /* Aumentei um pouco o tamanho da logo para melhor visualização */
+    width: 60px;
     height: auto;
     display: block;
 }
@@ -39,7 +36,7 @@ header img {
 header .logo-info {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espaçamento entre a logo e o texto */
+    gap: 10px;
 }
 
 header .logo-info h4 {
@@ -54,14 +51,14 @@ header .logo-info small {
 
 header nav {
     display: flex;
-    gap: 20px; /* Aumentei um pouco o espaçamento entre os links */
+    gap: 20px;
     flex-wrap: wrap;
-    justify-content: center; /* Centraliza os links em telas menores */
-    margin-top: 10px; /* Adiciona um pouco de espaço acima da navegação em telas menores */
+    justify-content: center;
+    margin-top: 10px;
 }
 
 header nav a {
-    color: #333; /* Cor dos links */
+    color: #333;
     text-decoration: none;
     font-weight: bold;
 }
@@ -74,12 +71,12 @@ header .search-box {
     display: flex;
     gap: 5px;
     margin-top: 10px;
-    width: 100%; /* Ocupa a largura total em telas menores */
-    max-width: 300px; /* Largura máxima da caixa de pesquisa */
+    width: 100%;
+    max-width: 300px;
 }
 
 header input[type="text"] {
-    flex-grow: 1; /* Faz o input ocupar o espaço disponível */
+    flex-grow: 1;
     padding: 8px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -99,14 +96,12 @@ header .input-group-text i {
     font-size: 1.1rem;
 }
 
-/* Estilos para o conteúdo principal (main) */
 main {
     padding: 20px;
     max-width: 1200px;
-    margin: 0 auto; /* Centraliza o conteúdo principal */
+    margin: 0 auto;
 }
 
-/* Estilos para a seção do tópico inicial */
 .topico-inicial {
     margin-bottom: 30px;
 }
@@ -115,32 +110,31 @@ main {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 20px;
-    color: #743B0B; /* Garante a cor do título */
-    font-family: 'Jomhuria', cursive; /* Garante a fonte do título */
-    font-weight: 400; /* Garante o peso da fonte do título */
+    color: #743B0B;
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
 }
 
 .topico-inicial .d-flex {
     display: flex;
-    flex-direction: column; /* Empilha imagem e texto em telas menores */
-    gap: 20px; /* Espaçamento entre imagem e texto */
+    flex-direction: column;
+    gap: 20px;
 }
 
 .topico-inicial img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 15px; /* Espaço abaixo da imagem */
+    margin-bottom: 15px;
 }
 
 .topico-inicial p {
-    font-size: 1.1rem; /* Ajustei um pouco o tamanho da fonte do texto */
+    font-size: 1.1rem;
     color: #4A2C16;
     line-height: 1.7;
     text-align: justify;
     margin-bottom: 15px;
 }
 
-/* Estilos para as seções dos líderes */
 .Ganga, .Zumbi, .Dandara {
     margin-bottom: 30px;
 }
@@ -161,67 +155,65 @@ main {
     display: flex;
     align-items: center;
     gap: 20px;
-    flex-direction: row; /* Organiza imagem e texto na mesma linha por padrão */
+    flex-direction: row;
     margin-bottom: 20px;
 }
 
 .Ganga img,
 .Dandara img,
 .Zumbi img {
-    max-width: 150px; /* Padronizei a largura máxima das imagens dos líderes */
+    max-width: 150px;
     height: auto;
 }
 
 .Ganga p,
 .Zumbi p,
 .Dandara p {
-    font-size: 1.1rem; /* Ajustei um pouco o tamanho da fonte do texto */
+    font-size: 1.1rem;
     color: #4A2C16;
     line-height: 1.7;
     text-align: justify;
     margin: 0;
 }
 
-/* Estilos para a seção do legado */
 .O\ Legado\ dos\ Líderes\ Quilombolas h2 {
     font-size: 2.2rem;
     text-align: center;
     margin-bottom: 20px;
-    color: #743B0B; /* Garante a cor do título */
-    font-family: 'Jomhuria', cursive; /* Garante a fonte do título */
-    font-weight: 400; /* Garante o peso da fonte do título */
+    color: #743B0B;
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
 }
 
 .O\ Legado\ dos\ Líderes\ Quilombolas p {
-    font-size: 1.1rem; /* Ajustei um pouco o tamanho da fonte do texto */
+    font-size: 1.1rem;
     color: #4A2C16;
     line-height: 1.7;
     text-align: justify;
 }
 
-/* Estilos para o rodapé */
 .footer {
     background-color: #D8B894;
     padding: 40px 20px;
-    text-align: center; /* Centraliza o conteúdo inicialmente para telas menores */
+    text-align: center;
     box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
     margin: 20px 0 0;
-    width: 100%; /* Garante que o rodapé ocupe a largura total */
+    width: 100%;
 }
 
 .footer-container {
     display: flex;
-    flex-wrap: wrap; /* Permite que as colunas se empilhem em telas menores */
-    justify-content: space-around; /* Espaça as colunas */
-    align-items: flex-start; /* Alinha os itens no topo */
-    max-width: 800px; /* Largura máxima do container interno */
-    margin: 0 auto; /* Centraliza o container interno */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .footer-left, .footer-right {
-    flex: 1; /* Faz as colunas ocuparem o mesmo espaço */
-    min-width: 300px; /* Garante uma largura mínima para cada coluna */
-    text-align: left; /* Alinha o texto à esquerda dentro de cada coluna */
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
     padding: 10px;
 }
 
@@ -229,14 +221,14 @@ main {
     width: 80px;
     height: auto;
     margin-bottom: 15px;
-    display: block; /* Garante que a margem funcione corretamente */
+    display: block;
 }
 
 .footer-icon {
     width: 40px;
     height: auto;
     margin-bottom: 10px;
-    display: block; /* Garante que a margem funcione corretamente */
+    display: block;
 }
 
 .footer p {
@@ -256,27 +248,25 @@ main {
     text-decoration: underline;
 }
 
-/* Media query para telas menores, onde as colunas se empilham */
 @media (max-width: 600px) {
     .footer-container {
-        flex-direction: column; /* Empilha as colunas verticalmente */
-        align-items: center; /* Centraliza os itens */
-        text-align: center; /* Centraliza o texto */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .footer-left, .footer-right {
-        min-width: auto; /* Remove a largura mínima */
-        width: 100%; /* Ocupa a largura total */
+        min-width: auto;
+        width: 100%;
         padding: 20px;
     }
 
     .footer-logo, .footer-icon {
-        margin: 15px auto; /* Centraliza a logo e o ícone */
+        margin: 15px auto;
         display: block;
     }
 }
 
-/* Estilos para o rodapé (versão anterior, caso ainda esteja em uso em alguma página) */
 #rodape {
     text-align: center;
     padding: 20px;
@@ -311,16 +301,15 @@ main {
     text-decoration: underline;
 }
 
-/* Ajuste para o texto inicial ao lado da imagem em telas maiores */
 @media (min-width: 769px) {
     .topico-inicial .d-flex {
-        flex-direction: row; /* Alinha a imagem e o texto lado a lado */
-        align-items: flex-start; /* Alinha os itens ao topo */
+        flex-direction: row;
+        align-items: flex-start;
     }
 
     .topico-inicial img {
-        max-width: 300px; /* Defina uma largura máxima para a imagem */
-        margin-right: 20px; /* Adiciona um espaço entre a imagem e o texto */
-        margin-bottom: 0; /* Remove a margem inferior da imagem em telas maiores */
+        max-width: 300px;
+        margin-right: 20px;
+        margin-bottom: 0;
     }
 }
