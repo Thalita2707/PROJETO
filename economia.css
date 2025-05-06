@@ -55,12 +55,12 @@ header .d-flex.align-items-center.gap-3 {
 
 header .input-group.input-group-sm {
     width: 100%;
-    max-width: 300px; /* Largura máxima para a barra de pesquisa */
+    max-width: 300px;
 }
 
 @media (min-width: 768px) {
     header .input-group.input-group-sm {
-        width: auto; /* Largura automática em telas maiores */
+        width: auto;
     }
 
     header .flex-grow-1.ms-4 {
@@ -74,7 +74,7 @@ header .input-group.input-group-sm {
     }
 
     header .d-flex.align-items-center.gap-3 {
-        margin-left: auto; /* Empurra a barra de pesquisa para a direita */
+        margin-left: auto;
     }
 }
 
@@ -83,20 +83,20 @@ header input[type="text"] {
     padding: 8px;
     font-size: 16px;
     margin-top: 10px;
-    border-radius: 0; /* Remove bordas arredondadas */
-    border-right: none; /* Remove a borda direita para juntar com o botão */
+    border-radius: 0;
+    border-right: none;
 }
 
 header .input-group-text {
-    background-color: #ffc107; /* Mantém a cor amarela */
-    color: #333; /* Cor do ícone */
-    border-radius: 0; /* Remove bordas arredondadas */
-    border-left: none; /* Remove a borda esquerda para juntar com o input */
+    background-color: #ffc107;
+    color: #333;
+    border-radius: 0;
+    border-left: none;
     cursor: pointer;
 }
 
 header .input-group-text i {
-    font-size: 1rem; /* Tamanho do ícone */
+    font-size: 1rem;
 }
 
 .capa {
@@ -123,7 +123,7 @@ main {
 
 .topico-inicial .d-flex {
     flex-direction: column;
-    gap: 20px; /* Adiciona espaçamento entre imagem e texto no layout vertical */
+    gap: 20px;
 }
 
 .topico-inicial img {
@@ -137,7 +137,7 @@ main {
     line-height: 1.7;
     text-align: justify;
     margin-bottom: 15px;
-    margin-top: 0; /* Remove a margem superior padrão do parágrafo */
+    margin-top: 0;
 }
 
 .Produção,
@@ -157,15 +157,15 @@ main {
     text-transform: uppercase;
     margin-bottom: 15px;
     opacity: 0.9;
-    width: 100%; /* Garante que o título ocupe a largura total */
+    width: 100%;
 }
 
 .Produção .d-flex,
 .Desafios .d-flex,
 .Fortalecimento .d-flex {
     display: flex;
-    flex-direction: column; /* Layout padrão em telas menores */
-    gap: 20px; /* Espaçamento entre imagem e texto no layout vertical */
+    flex-direction: column;
+    gap: 20px;
 }
 
 .Produção img,
@@ -222,44 +222,39 @@ footer {
     margin-bottom: 10px;
 }
 
-/* Estilos para o container do rodapé */
 footer .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Distribui as colunas */
-    align-items: flex-start; /* Alinha os itens no topo */
-    max-width: 1200px; /* Largura máxima do container */
-    margin: auto; /* Centraliza o container */
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
 }
 
-/* Estilos para cada seção do rodapé (coluna) */
 .footer-section {
-    flex: 1; /* Faz com que as seções ocupem espaço igual */
-    max-width: 45%; /* Define uma largura máxima para cada seção (ajuste conforme necessário) */
+    flex: 1;
+    max-width: 45%;
     padding: 10px;
-    text-align: center; /* Centraliza o texto dentro de cada seção */
-    margin-bottom: 20px; /* Espaçamento entre as seções em telas menores */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Media query para telas maiores, onde queremos duas colunas lado a lado */
 @media (min-width: 768px) {
     .footer .container {
-        justify-content: space-between; /* Espaça as duas colunas igualmente */
+        justify-content: space-between;
     }
 
     .footer-section {
-        max-width: 48%; /* Ajusta a largura para duas colunas lado a lado */
-        text-align: left; /* Alinha o texto à esquerda em telas maiores */
-        margin-bottom: 0; /* Remove a margem inferior em telas maiores */
+        max-width: 48%;
+        text-align: left;
+        margin-bottom: 0;
     }
 
-    /* Estilos específicos para a seção de contato (e-mail) */
     .footer-section:last-child {
-        text-align: right; /* Alinha o texto da última seção à direita */
+        text-align: right;
     }
 }
 
-/* Media Query para telas maiores (acima de 769px) */
 @media (min-width: 769px) {
     .topico-inicial .d-flex {
         flex-direction: row;
@@ -267,7 +262,7 @@ footer .container {
     }
 
     .topico-inicial img {
-        max-width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+        max-width: 300px;
         margin-right: 20px;
         margin-bottom: 0;
     }
@@ -282,14 +277,13 @@ footer .container {
     .Produção img,
     .Desafios img,
     .Fortalecimento img {
-        max-width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+        max-width: 300px;
         height: auto;
         margin-right: 20px;
         margin-bottom: 0;
     }
 }
 
-/* Media Query para telas um pouco menores (máximo 992px) - Opcional, para ajustes intermediários */
 @media (max-width: 992px) {
     .topico-inicial .d-flex {
         flex-direction: column;
