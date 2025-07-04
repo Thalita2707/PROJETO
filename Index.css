@@ -194,4 +194,6 @@ footer p {
 header.bg-warning {
     background-color: #FD7E14 !important;
 }
-
+footer{
+    text-align: center;
+}
