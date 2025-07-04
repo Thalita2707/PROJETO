@@ -100,10 +100,10 @@ header input[type="text"] {
 }
 
 .footer a {
-  text-decoration: none;
-  color: #743B0B; 
+  text-decoration: none; /* Remove o sublinhado */
+  color: #743B0B; /* Define a cor marrom */
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse (opcional) */
 }
