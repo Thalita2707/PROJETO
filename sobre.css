@@ -3,11 +3,12 @@
 
 p{
   text-align: justify;
-  line-height: 1.6;
+  line-height: 1.7;
   margin-left: 80px;
   margin-right: 80px;
   size: 14px;
 }
+
 /* --- RODAPÉ --- */
 footer {
     background-color: #D8B894;
@@ -22,13 +23,10 @@ footer {
 }
 footer h3 {
     font-size: 16px;
-    font-weight: bold;
     font-family: 'Arial', sans-serif;
     color: #4A2F27;
 }
-footer div {
-    max-width: 400px;
-}
+
 footer a {
     color: #4A2F27;
     text-decoration: none;
@@ -49,9 +47,11 @@ footer p {
 #rodape {
     text-align: center;
 }
-
 /* --- CABEÇALHO --- */
 header.bg-warning {
-    background-color: #FD7E14 !important;
+    background-color: #ffc107 !important;
 }
-
+.capa {
+    width: 1520px;
+    height: 600px; /* opcional, dependendo do que você quer */
+}
