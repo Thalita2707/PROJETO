@@ -1,11 +1,11 @@
-
+/* --- Cores Primárias --- */
 :root {
-    --cor-principal: #743B0B;       
-    --cor-secundaria: #FD7E14;     
-    --cor-fundo-rodape: #D8B894;   
-    --cor-texto-principal: #333;   
-    --cor-texto-secundario: #777; 
-    --cor-destaque: #D35400;       
+    --cor-principal: #743B0B;       /* Marrom terroso */
+    --cor-secundaria: #FD7E14;     /* Laranja vibrante */
+    --cor-fundo-rodape: #D8B894;   /* Bege claro */
+    --cor-texto-principal: #333;   /* Cinza escuro */
+    --cor-texto-secundario: #777; /* Cinza médio */
+    --cor-destaque: #D35400;       /* Laranja mais escuro (Leia também) */
 }
 
 /* --- Cabeçalho --- */
@@ -17,52 +17,52 @@ header {
 
 header .container {
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+    align-items: center; /* Alinha verticalmente os itens do cabeçalho */
+    justify-content: space-between; /* Espaça os itens horizontalmente */
 }
 
 header .logo-texto {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Organiza o título e a descrição em coluna */
 }
 
 header .logo-texto h4 a {
-    color: var(--cor-principal) !important; 
+    color: var(--cor-principal) !important; /* A COR CERTA AGORA! */
     font-family: 'Jomhuria', cursive !important;
     font-weight: 400 !important;
-    font-size: 2.5rem !important; 
+    font-size: 2.5rem !important; /* Aumentei o tamanho da fonte do título */
     text-decoration: none;
-    margin-bottom: 0; 
+    margin-bottom: 0; /* Removi a margem inferior padrão */
 }
 
 header .logo-texto small {
-    color: var(--cor-principal) !important; 
+    color: var(--cor-principal) !important; /* A COR CERTA AGORA! */
     font-family: 'Inter', sans-serif !important;
-    font-size: 0.9rem !important; 
+    font-size: 0.9rem !important; /* Diminuí o tamanho da fonte da descrição */
 }
 
 header nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; 
-    align-items: center;
+    display: flex; /* Organiza os links em linha */
+    align-items: center; /* Alinha verticalmente os links */
 }
 
 header nav li {
-    margin-left: 1.5rem; 
+    margin-left: 1.5rem; /* Adiciona espaço entre os links */
 }
 
 header nav li:first-child {
-    margin-left: 0; 
+    margin-left: 0; /* Remove a margem do primeiro link */
 }
 
 header nav a {
-    color: var(--cor-principal) !important; 
+    color: var(--cor-principal) !important; /* A COR CERTA AGORA! */
     font-family: 'Inter', sans-serif !important;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1rem !important; 
+    font-size: 1rem !important; /* Defini um tamanho para os links */
 }
 
 header nav a:hover {
@@ -70,28 +70,29 @@ header nav a:hover {
 }
 header .input-group input {
     font-family: 'Inter', sans-serif !important;
-    color: var(--cor-texto-principal); 
-    font-size: 0.9rem !important; 
+    color: var(--cor-texto-principal); /* Mantive a cor do texto do input */
+    font-size: 0.9rem !important; /* Ajustei o tamanho da fonte do input */
+}
 
 header .input-group span {
     font-family: 'Inter', sans-serif !important;
-    color: var(--cor-texto-principal); 
-    font-size: 0.9rem !important;
+    color: var(--cor-texto-principal); /* Mantive a cor do texto do span */
+    font-size: 0.9rem !important; /* Ajustei o tamanho da fonte do span */
 }
 
 /* --- Rodapé --- */
 footer {
-    background-color: var(--cor-fundo-rodape) !important; 
+    background-color: var(--cor-fundo-rodape) !important; /* Cor de fundo do rodapé */
     padding: 20px 0;
     text-align: center;
     font-family: 'Inter', sans-serif !important;
-    color: var(--cor-texto-principal) !important; 
+    color: var(--cor-texto-principal) !important; /* Cor do texto do rodapé */
 }
 
 footer h3,
 footer p,
 footer a {
-    color: var(--cor-texto-principal) !important; 
+    color: var(--cor-texto-principal) !important; /* Cor do texto dos elementos do rodapé */
     text-decoration: none;
     font-family: 'Inter', sans-serif !important;
 }
