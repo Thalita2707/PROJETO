@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomhuria&display=swap');
+
+/* --- TEMAS --- */
+#temas {
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+}
+#temas .row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#temas .col-md-2 {
+    flex: 4;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#temas img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#temas p {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.row.text-center .col-md-2 p a {
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+}
+.row.text-center .col-md-2 p a:hover {
+    color: #743B0B;
+}
+
+/* --- PARÁGRAFOS GERAIS --- */
+.col-md-6 p {
+    text-align: justify;
+}
+
+/* --- NOTÍCIAS --- */
+#noticias {
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#noticias .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#noticias .col-md-3 {
+    flex: 1;
+    max-width: 270px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+#noticias img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#noticias h5 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    text-align: justify;
+}
+#noticias p {
+    font-style: italic;
+    font-size: 0.80rem;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+#noticias p.text-muted {
+    font-style: italic;
+    color: #777;
+    font-size: 0.85rem;
+}
+
+/* --- TÍTULOS E TIPOGRAFIA --- */
+h3 {
+    color: #743B0B;
+    font-family: "Jomhuria";
+    font-weight: 200;
+    font-size: 80px;
+    font-style: normal;
+    width: 90%;
+    padding: 0px;
+}
+.titulo-grande {
+    font-size: 90px;
+    color: #743B0B;
+    line-height: 1.5;
+    font-family: "Jomhuria", serif;
+}
+.fw-bold {
+    font-weight: bold;
+}
+
+/* --- SEÇÃO ESTUDO --- */
+.container1 {
+    padding: 2rem;
+    background-color: #FEC493;
+}
+#estudo .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+#estudo .card {
+    width: 200px;
+    height: 345px;
+    text-align: center;
+    background: #7C5140;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+#estudo .card:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+#estudo .card p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+}
+#estudo .card img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 5px;
+}
+
+/* --- RODAPÉ --- */
+footer {
+    background-color: #ffffff;
+    color: #4A2F27;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #4A2F27;
+}
+footer div {
+    max-width: 300px;
+}
+footer a {
+    color: #4A2F27;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer img {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+footer p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+#rodape {
+    text-align: center;
+}
+
+/* --- CABEÇALHO --- */
+header.bg-warning {
+    background-color: #FD7E14 !important;
+}
+footer{
+    text-align: center;
+}
