@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projeto Quilombola Digital</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    @vite('resources/css/bootstrap/bootstrap.min.css')
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 
@@ -14,12 +14,9 @@
             font-weight: 400;
         }
     </style>
-    @vite('resources/css/quilombola/index.css')
-    @vite('resources/css/quilombola/cultura.css')
-    @vite('resources/css/quilombola/economia.css')
-    @vite('resources/css/quilombola/lideres.css')
-    @vite('resources/css/quilombola/noticias.css')
-    @vite('resources/css/quilombola/lutasdireitos.css')
+
+    @vite('resources/css/quilombola/estilo.css')
+    @yield('page-css')
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -29,7 +26,10 @@
 
 @yield('content')
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+@vite(['resources/js/bootstrap/bootstrap.bundle.min.js'])
+
 @include('layouts.quilombola.partials.footer')
+
+@yield('page-js')
 </body>
 </html>

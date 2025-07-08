@@ -60,13 +60,6 @@ header input[type="text"] {
 }
 
 
-.footer {
-    background: #D8B894;
-    padding: 40px 0;
-    text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 .container {
     display: flex;
     justify-content: space-around;
@@ -95,15 +88,11 @@ header input[type="text"] {
 }
 
 #map {
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
 .footer a {
-  text-decoration: none; /* Remove o sublinhado */
   color: #743B0B; /* Define a cor marrom */
 }
 
-.footer a:hover {
-  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse (opcional) */
-}

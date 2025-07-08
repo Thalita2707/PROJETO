@@ -1,11 +1,15 @@
 @extends('layouts.quilombola.base')
 
+@section('page-css')
+    @vite('resources/css/quilombola/economia.css')
+@endsection
+
 @section('content')
     <main class="container">
         <section class="topico-inicial">
             <h2>Saberes, Trabalho e Resistência</h2>
             <div class="d-flex flex-column flex-md-row align-items-center gap-3">
-                <img src="imagem/b1.jpg" alt="Imagem primaria" class="img-fluid rounded" style="max-width: 300px;">
+                <img src="{{ asset('images/b1.jpg') }}" alt="Imagem primaria" class="img-fluid rounded" style="max-width: 300px;">
                 <div>
                     <p>A economia quilombola é, antes de tudo, uma forma de resistência histórica. Desde os tempos da
                         escravidão, os quilombos surgiram como espaços de liberdade, onde pessoas negras fugidas dos
@@ -27,7 +31,7 @@
         <section class="Produção">
             <h2 class="titulo01">Produção Coletiva e Sustentável</h2>
             <div class="d-flex flex-column flex-md-row align-items-center gap-3">
-                <img src="imagem/b2.jpg" alt="Imagem Ganga" class="img-fluid rounded" style="max-width: 300px;">
+                <img src="{{ asset('images/b2.jpg') }}" alt="Imagem Ganga" class="img-fluid rounded" style="max-width: 300px;">
                 <div>
                     <p class="card-text">Nas comunidades quilombolas, o modelo econômico gira em torno da agricultura
                         familiar, da pesca artesanal, do artesanato e da culinária tradicional. As roças são geralmente
@@ -55,7 +59,7 @@
         <section class="Desafios">
             <h2 class="titulo02">Desafios da Economia Quilombola</h2>
             <div class="d-flex flex-column flex-md-row align-items-center gap-3">
-                <img src="imagem/b3.jpg" alt="Imagem representando Zumbi" class="img-fluid rounded"
+                <img src="{{ asset('images/b3.jpg') }}" alt="Imagem representando Zumbi" class="img-fluid rounded"
                      style="max-width: 300px;">
                 <div>
                     <p>Apesar de toda essa riqueza cultural e produtiva, as comunidades quilombolas enfrentam inúmeros
@@ -82,7 +86,7 @@
         <section class="Fortalecimento">
             <h2 class="titulo03">Caminhos para o Fortalecimento</h2>
             <div class="d-flex flex-column flex-md-row align-items-center gap-3">
-                <img src="imagem/b4.jpeg" alt="Imagem Ganga" class="img-fluid rounded" style="max-width: 300px;">
+                <img src="{{ asset('images/b4.jpeg') }}" alt="Imagem Ganga" class="img-fluid rounded" style="max-width: 300px;">
                 <div>
                     <p>Fortalecer a economia quilombola é uma ação que exige compromisso político e social. Isso
                         significa

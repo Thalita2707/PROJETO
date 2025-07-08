@@ -1,13 +1,18 @@
 @extends('layouts.quilombola.base')
 
+@section('page-css')
+    @vite('resources/css/quilombola/historia.css')
+@endsection
+
 @section('content')
     <main class="container mt-4 historia-quilombos-completa">
         <h2>A História Abrangente dos Quilombos no Brasil</h2>
 
         <section class="secao-historica">
             <h3>As Raízes da Resistência: Do Cativeiro à Fuga</h3>
-            <img src="imagem/africa-brasil.jpg" alt="Ilustração da travessia da África para o Brasil"
+            <img src="{{ asset('images/africa-brasil.jpg') }}" alt="Ilustração da travessia da África para o Brasil"
                  class="img-fluid imagem-historica">
+
             <p>A história dos quilombos está intrinsecamente ligada à brutalidade do sistema escravista imposto aos
                 africanos trazidos à força para o Brasil. Arrancados de suas terras, famílias e culturas, eles foram
                 submetidos a condições desumanas de trabalho e vida. Em meio a esse sofrimento, a resistência floresceu
@@ -20,8 +25,9 @@
 
         <section class="secao-historica">
             <h3>O Surgimento e a Natureza dos Quilombos</h3>
-            <img src="imagem/formacao-quilombo.webp" alt="Ilustração da formação de um quilombo"
+            <img s      src="{{ asset('images/formacao-quilombo.webp') }}" alt="Ilustração da formação de um quilombo"
                  class="img-fluid imagem-historica">
+
             <p>Os primeiros quilombos surgiram nos primórdios da colonização, tornando-se mais numerosos e organizados
                 com o aumento do tráfico negreiro e a expansão da lavoura. Inicialmente, podiam ser pequenos refúgios
                 temporários, mas muitos evoluíram para comunidades estáveis e complexas, com organização social,
@@ -37,8 +43,9 @@
 
         <section class="secao-historica">
             <h3>O Quilombo dos Palmares em Detalhe</h3>
-            <img src="imagem/palmares-detalhe.jpg" alt="Mapa ou representação detalhada de Palmares"
+            <img  src="{{ asset('images/palmares-detalhe.jpg') }}" alt="Mapa ou representação detalhada de Palmares"
                  class="img-fluid imagem-historica">
+
             <p>O Quilombo dos Palmares, localizado na então Capitania de Pernambuco (hoje Alagoas), é o exemplo mais
                 emblemático da resistência quilombola. Sua existência por quase um século, de meados do século XVII até
                 o final do século, desafiou o poder colonial e se tornou um símbolo de liberdade para os
@@ -58,7 +65,7 @@
 
         <section class="secao-historica">
             <h3>Outros Quilombos e Suas Contribuições</h3>
-            <img src="imagem/outros-quilombos.jpg" alt="Representação de diversos quilombos"
+            <img src="{{ asset('images/outros-quilombos.jpg') }}" alt="Representação de diversos quilombos"
                  class="img-fluid imagem-historica">
             <p>Além de Palmares, centenas de outros quilombos existiram por todo o Brasil, cada um com sua história e
                 importância. Eles representavam focos de resistência, abrigavam fugitivos e preservavam a cultura
@@ -86,7 +93,7 @@
 
         <section class="secao-historica">
             <h3>A Repressão e a Destruição dos Quilombos</h3>
-            <img src="imagem/repressao-quilombos.jpg" alt="Ilustração da repressão aos quilombos"
+            <img src="{{ asset('images/repressao-quilombos.jpg') }}" alt="Ilustração da repressão aos quilombos"
                  class="img-fluid imagem-historica">
             <p>A existência dos quilombos representava uma ameaça direta ao sistema escravista e ao poder colonial. Por
                 isso, foram alvo constante de expedições militares organizadas pelos senhores de escravos e pelas
@@ -102,7 +109,7 @@
 
         <section class="secao-historica">
             <h3>O Legado Duradouro dos Quilombos</h3>
-            <img src="imagem/legado-quilombos.jpg" alt="Imagem representando o legado dos quilombos"
+            <img src="{{ asset('images/legado-quilombos.jpg') }}" alt="Imagem representando o legado dos quilombos"
                  class="img-fluid imagem-historica">
             <p>Apesar da repressão e da destruição de muitos quilombos, seu legado é profundo e duradouro na história e
                 na cultura brasileira. Os quilombos foram espaços de resistência, de construção de liberdade e de
@@ -118,7 +125,7 @@
 
         <section class="secao-historica">
             <h3>Os Quilombos na Contemporaneidade</h3>
-            <img src="imagem/quilombos-atuais.jpg" alt="Imagem de uma comunidade quilombola atual"
+            <img src="{{ asset('images/quilombos-atuais.jpg') }}" alt="Imagem de uma comunidade quilombola atual"
                  class="img-fluid imagem-historica">
             <p>Na Constituição Federal de 1988, o Brasil reconheceu o direito à propriedade das terras ocupadas pelas
                 comunidades remanescentes de quilombos. No entanto, a efetivação desse direito ainda enfrenta desafios

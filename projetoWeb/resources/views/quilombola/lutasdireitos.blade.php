@@ -1,5 +1,9 @@
 @extends('layouts.quilombola.base')
 
+@section('page-css')
+    @vite('resources/css/quilombola/lutasdireitos.css')
+@endsection
+
 @section('content')
 
     <main class="container my-4">

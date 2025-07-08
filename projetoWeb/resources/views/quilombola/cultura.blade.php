@@ -1,5 +1,9 @@
 @extends('layouts.quilombola.base')
 
+@section('page-css')
+    @vite('resources/css/quilombola/cultura.css')
+@endsection
+
 @section('content')
 
     <main>
@@ -32,7 +36,7 @@
             <section class="card">
                 <h2 class="titulo01">Religião e Espiritualidade</h2>
                 <div class="content">
-                    <img src="imagem/REG.jpg" alt="Imagem representando religião e espiritualidade" class="card-img">
+                    <img src="{{ asset('images/REG.jpg') }}" alt="Imagem representando religião e espiritualidade" class="card-img">
                     <p>Muitas comunidades quilombolas praticam crenças de origem africana, como o candomblé e a umbanda,
                         além de tradições católicas, como a festa de São Benoà.</p>
                 </div>
@@ -41,7 +45,7 @@
             <section class="card">
                 <h2 class="titulo02">Música e Dança</h2>
                 <div class="content">
-                    <img src="imagem/MeD.jpg" alt="Imagem de Música e Dança" class="card-img">
+                    <img src="{{ asset('images/MeD.jpg') }}" alt="Imagem de Música e Dança" class="card-img">
                     <p class="card-text">O Jongo, considerado um dos antecessores do samba, e o Samba de Roda são
                         expressões
                         musicais populares dentro das comunidades. O som dos tambores, atabaques e berimbaus mantém viva
@@ -53,7 +57,7 @@
             <section class="card">
                 <h2 class="titulo03">Artesanato e Expressões Artísticas</h2>
                 <div class="content">
-                    <img src="imagem/arte.jpg" alt="Imagem de Artesanato" class="card-img">
+                    <img src="{{ asset('images/arte.jpg') }}" alt="Imagem de Artesanato" class="card-img">
                     <p class="card-text">É muito rico em história e tradição, é uma forma de expressão artística que
                         reflete
                         a herança africana e a identidade das comunidades remanescentes de quilombos. Essa prática
@@ -65,7 +69,7 @@
             <section class="card">
                 <h2 class="titulo04">Gastronomia</h2>
                 <div class="content">
-                    <img src="imagem/gastronomia.jpg" alt="Imagem de Gastronomia" class="card-img">
+                    <img src="{{ asset('images/gastronomia.jpg') }}" alt="Imagem de Gastronomia" class="card-img">
                     <p class="card-text">A culinária quilombola reflete a fusão entre culturas africanas e indígenas,
                         com
                         pratos como vatapá, caruru, feijão tropeiro e mugunzá. Ingredientes como mandioca, milho, peixe
@@ -77,7 +81,7 @@
 
         <section class="topico-principal">
             <h2>Sustentabilidade, Resistência e Presença Quilombola no Brasil</h2>
-            <img src="imagem/topico2.jpg" class="topico-dois">
+            <img src="{{ asset('images/topico2.jpg') }}" alt="topico2" class="topico-dois">
             <p>As comunidades quilombolas possuem um forte conhecimento sobre a natureza e a sustentabilidade. Muitas
                 delas
                 praticam a agroecologia, cultivando alimentos sem o uso de agrotóxicos e preservando espécies nativas.

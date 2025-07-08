@@ -1,0 +1,187 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #743B0B;
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+}
+
+header {
+    background-color: #ffc107;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*header img {*/
+/*    width: 50px;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*}*/
+
+header .d-flex.align-items-center.border-end.pe-4 {
+    margin-bottom: 10px;
+}
+
+header .flex-grow-1.ms-4 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header .d-flex.align-items-center.gap-3 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+header .input-group.input-group-sm {
+    width: 100%;
+    max-width: 300px; /* Largura máxima para a barra de pesquisa */
+}
+
+@media (min-width: 768px) {
+    header .input-group.input-group-sm {
+        width: auto; /* Largura automática em telas maiores */
+    }
+
+    header .flex-grow-1.ms-4 {
+        width: auto;
+        margin-left: 15px;
+        margin-top: 0;
+    }
+
+    header nav {
+        justify-content: flex-start;
+    }
+
+    header .d-flex.align-items-center.gap-3 {
+        margin-left: auto; /* Empurra a barra de pesquisa para a direita */
+    }
+}
+
+header input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 0; /* Remove bordas arredondadas */
+    border-right: none; /* Remove a borda direita para juntar com o botão */
+}
+
+header .input-group-text {
+    background-color: #ffc107; /* Mantém a cor amarela */
+    color: #333; /* Cor do ícone */
+    border-radius: 0; /* Remove bordas arredondadas */
+    border-left: none; /* Remove a borda esquerda para juntar com o input */
+    cursor: pointer;
+}
+
+header .input-group-text i {
+    font-size: 1rem; /* Tamanho do ícone */
+}
+
+footer {
+    background-color: #ffffff;
+    color: #4A2F27;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #D8B894;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    padding: 10px;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer a {
+    color: #4A2C16;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-icon {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#rodape {
+    text-align: center;
+}
+
+footer img {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer div {
+    max-width: 300px;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #4A2F27;
+}
+
+

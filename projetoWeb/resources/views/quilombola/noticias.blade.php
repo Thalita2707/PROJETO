@@ -1,5 +1,9 @@
 @extends('layouts.quilombola.base')
 
+@section('page-css')
+    @vite('resources/css/quilombola/noticias.css')
+@endsection
+
 @section('content')
 
         <main>
@@ -9,7 +13,7 @@
                 <section class="noticia-destaque mb-5">
                     <div class="row">
                         <div class="col-md-12">
-                            <img class="img-fluid rounded mb-3" src="imagem/noticia3.jpg" alt="Notícia Principal">
+                            <img class="img-fluid rounded mb-3" src="{{ asset('images/noticia3.jpg') }}" alt="Notícia Principal">
                             <h2><a href="#" class="text-dark text-decoration-none">No Dia dos Povos Indígenas, celebridades se mobilizam pela demarcação de terras</a></h2>
                             <p class="text-muted mb-2">Segunda-feira, 12 de fevereiro de 2025 - 10:30</p>
                             <p>Campanha "Brasil Indígena, Terra Demarcada" destaca papel dos povos indígenas na preservação ambiental e defende direitos previstos na Constituição internet.</p>
@@ -31,7 +35,7 @@
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                             <div class="card h-100">
-                                <img src="imagem/noticia2.jpg" class="card-img-top" alt="Notícia Mini 1">
+                                <img src="{{ asset('images/noticia2.jpg" class="card-img-top') }}" alt="Notícia Mini 1">
                                 <div class="card-body">
                                     <h6 class="card-title"><a href="#" class="text-dark text-decoration-none">Abertas inscrições para o processo seletivo quilombola UFPE 2025; 25 vagas em Santa Maria da Boa Vista</a></h6>
                                     <p class="card-text text-muted"><small>Segunda-feira, 12 de fevereiro de 2025 - 10:30</small></p>
@@ -40,7 +44,7 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="imagem/image3.jpg" class="card-img-top" alt="Notícia Mini 2">
+                                <img src="{{ asset('images/image3.jpg" class="card-img-top') }}" alt="Notícia Mini 2">
                                 <div class="card-body">
                                     <h6 class="card-title"><a href="#" class="text-dark text-decoration-none">Nota de pesar pelo falecimento de Dona Antônia, liderança histórica do Quilombo Cangume</a></h6>
                                     <p class="card-text text-muted"><small>Quarta-feira, 14 de fevereiro de 2025 - 15:20</small></p>
@@ -49,7 +53,7 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="imagem/noticia2.jpg" class="card-img-top" alt="Notícia Mini 3">
+                                <img src="{{ asset('images/noticia2.jpg" class="card-img-top') }}" alt="Notícia Mini 3">
                                 <div class="card-body">
                                     <h6 class="card-title"><a href="#" class="text-dark text-decoration-none">Abertas inscrições para o processo seletivo quilombola UFPE 2025; 25 vagas em Santa Maria da Boa Vista</a></h6>
                                     <p class="card-text text-muted"><small>Segunda-feira, 12 de fevereiro de 2025 - 10:30</small></p>

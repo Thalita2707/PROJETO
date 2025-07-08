@@ -148,52 +148,8 @@ h3 {
     border-radius: 5px;
 }
 
-/* --- RODAPÉ --- */
-footer {
-    background-color: #ffffff;
-    color: #4A2F27;
-    padding: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    text-align: left;
-    font-family: Arial, sans-serif;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-}
-footer h3 {
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'Arial', sans-serif;
-    color: #4A2F27;
-}
-footer div {
-    max-width: 300px;
-}
 footer a {
     color: #4A2F27;
-    text-decoration: none;
-    font-weight: bold;
-}
-footer a:hover {
-    text-decoration: underline;
-}
-footer img {
-    width: 80px;
-    display: block;
-    margin: 0 auto 10px;
-}
-footer p {
-    font-size: 14px;
-    line-height: 1.5;
-}
-#rodape {
-    text-align: center;
 }
 
-/* --- CABEÇALHO --- */
-header.bg-warning {
-    background-color: #FD7E14 !important;
-}
-footer{
-    text-align: center;
-}
+
